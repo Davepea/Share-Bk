@@ -33,7 +33,7 @@ const StartupCard = ({ post}:{post: StartupTypeCard}) => {
             </div>
             <div className=" w-[48px] h-[48px] overflow-hidden rounded-full">
             <Link href={`/user/${author?._id}`}>
-                <Image src={author?.image} alt="placeholder" width={48} height={48} />
+                <Image src={author?.image} alt={author?.image} width={48} height={48} />
             </Link>
             </div>
         </div>
