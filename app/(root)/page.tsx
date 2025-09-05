@@ -38,7 +38,7 @@ export default async function Home({searchParams}: {
   return (
     <>
       <section className=" pink_container ">
-      <h1 className="heading">Present Your Ideas, and Stories  Connect With People</h1>
+      <h1 className="heading">Present Your Ideas and Stories,  Connect With People</h1>
       <p className="sub-heading !max-w-3xl">
         Your ideas and stories hold the power to inspire change—share them with the world and see how far they can go.
       </p>
